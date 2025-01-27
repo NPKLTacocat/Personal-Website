@@ -1,0 +1,65 @@
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-right: 1rem;
+  background: #333;
+  color: white;
+  border: 2px solid #333;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #333;
+  border: 2px solid #333;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.intro-social-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+}
+
+.intro-github-icon {
+  width: 28px;
+  height: 28px;
+  fill: #333;
+  transition: all 0.3s ease;
+}
+
+.intro-github-btn:hover .intro-github-icon {
+  fill: #666;
+  transform: scale(1.1);
+}
+.intro-linkedin-icon {
+  width: 28px;
+  height: 28px;
+  fill: #0077b5; /* LinkedIn brand color */
+  transition: all 0.3s ease;
+}
+
+.intro-linkedin-btn:hover .intro-linkedin-icon {
+  fill: #005582; /* Darker LinkedIn blue */
+  transform: scale(1.1);
+}
+
+.intro-email-icon {
+  width: 28px;
+  height: 28px;
+  fill: #333;
+  transition: all 0.3s ease;
+}
+
+.intro-email-btn:hover .intro-email-icon {
+  fill: #666;
+  transform: scale(1.1);
+}

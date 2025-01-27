@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <!-- Fixed Navigation -->
+    <div class="nav-container">
+      <nav class="nav-inner">
+        <h1 class="logo">My Portfolio</h1>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#current-work">Current Work</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="container">
+      <main>
+        <section id="about" class="intro">
+          <div class="intro-image">
+            <img
+              src="images/portrait.jpg"
+              alt="Khang Tran"
+              class="profile-photo"
+            />
+          </div>
+          <div class="intro-content">
+            <p class="intro-greeting">Hello, I'm</p>
+            <h1 class="intro-name">Khang Tran</h1>
+            <p class="intro-text">
+              21-year-old student at the University of Florida from Ho Chi Minh,
+              Vietnam<span class="vietnam-flag"></span>. I am majoring in
+              Computer Science, and I am passionate about full-stack
+              development.
+            </p>
+            <div class="intro-links">
+              <a
+                href="documents/Khang Tran - Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn"
+                >Resume</a
+              >
+              <a
+                href="https://github.com/NPKLTacocat"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="intro-social-btn"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="intro-github-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/khang-tran-7828552ba/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="intro-social-btn"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="intro-linkedin-icon"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                  />
+                </svg>
+              </a>
+              <a href="mailto:khangtran.gnb@gmail.com" class="intro-social-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="intro-email-icon"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section id="skills" class="skills-section">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">React</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">MongoDB</div>
+            <div class="skill-item">C/C++</div>
+            <div class="skill-item">ARM</div>
+            <div class="skill-item">Git</div>
+            <div class="skill-item">Docker</div>
+            <div class="skill-item">Jira</div>
+          </div>
+        </section>
+        <div id="projects" class="section-header">
+          <h2 class="section-title">Projects</h2>
+        </div>
+        <section class="projects-section">
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+              <div class="project-image-container">
+                <a
+                  href="images/vocalsphere.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="images/vocalsphere.png"
+                    alt="Project 1- VocalSphere"
+                    class="project-image"
+                  />
+                </a>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">VocalSphere</h3>
+                <p class="project-description">
+                  An audio-first social platform that challenges text/visual
+                  norms by fostering authentic human connections through
+                  bite-sized, easily digestible audio clips.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Flask</span>
+                  <span class="tech-tag">RESTful API</span>
+                  <span class="tech-tag">MongoDB</span>
+                </div>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/NPKLTacocat/VocalSphere"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="github-link"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="github-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+              <div class="project-image-container">
+                <a
+                  href="images/socialnetworkanalyzer.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="images/socialnetworkanalyzer.png"
+                    alt="Project 2 - Social Network Analyzer"
+                    class="project-image"
+                  />
+                </a>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Social Network Analyzer</h3>
+                <p class="project-description">
+                  Inspired by the six degrees of separation theory, this tool
+                  maps hidden connection between 130,000 FaceBook pages using
+                  BFS and Dijkstra's algorithm.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">C++</span>
+                  <span class="tech-tag">wxWidgets</span>
+                  <span class="tech-tag">BFS</span>
+                  <span class="tech-tag">Dijkstra</span>
+                </div>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/NPKLTacocat/Social-Networks-Analyzer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="github-link"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="github-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image-container">
+                <a
+                  href="images/minesweeper.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="images/minesweeper.png"
+                    alt="Project 3 - Minesweeper Clone"
+                    class="project-image"
+                  />
+                </a>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Minesweeper Clone</h3>
+                <p class="project-description">
+                  A faithful retro-styled recreation of the classic game,
+                  featuring a timer, leaderboard for competitive play, and a
+                  debug mode for testing strategies.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">C++</span>
+                  <span class="tech-tag">SFML</span>
+                </div>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/NPKLTacocat/Minesweeper-Project"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="github-link"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="github-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </article>
+            <!-- Add more project cards as needed -->
+          </div>
+        </section>
+
+        <section id="current-work" class="current-work-section">
+          <div class="section-header">
+            <h2 class="section-title">Currently Working On</h2>
+          </div>
+          <div class="current-work-list">
+            <article class="work-item">
+              <h3 class="work-title">SortBot 3000</h3>
+              <p class="work-description">
+                Building an python script that would automatically sort files
+                you downloaded.
+              </p>
+            </article>
+
+            <article class="work-item">
+              <h3 class="work-title">WhatTheSub</h3>
+              <p class="work-description">
+                I'm currently learning Java to develop a live translation app
+                for Android to watch videos in other languages.
+              </p>
+            </article>
+
+            <article class="work-item">
+              <h3 class="work-title">100 days of code</h3>
+              <p class="work-description">
+                I'm currently learning Java to develop a live translation app
+                for Android to watch videos in other languages.
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2025 Khang Tran</p>
+      </footer>
+    </div>
+  </body>
+</html>

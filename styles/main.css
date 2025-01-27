@@ -1,0 +1,10 @@
+@import url("base/reset.css");
+@import url("components/nav.css");
+@import url("components/buttons.css");
+@import url("components/flag.css");
+@import url("sections/intro.css");
+@import url("sections/footer.css");
+@import url("utilities/responsive.css");
+@import url("sections/skills.css");
+@import url("sections/projects.css");
+@import url("sections/current-work.css");
