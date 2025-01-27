@@ -36,13 +36,3 @@
   color: #666;
   line-height: 1.6;
 }
-
-@media (max-width: 480px) {
-  .work-title {
-    font-size: 1.1rem;
-  }
-
-  .work-description {
-    font-size: 0.9rem;
-  }
-}
