@@ -46,4 +46,20 @@
   .skills-grid {
     gap: 0.5rem;
   }
+
+  .work-title {
+    font-size: 1.1rem;
+  }
+
+  .work-description {
+    font-size: 0.9rem;
+  }
+
+  .projects-section {
+    padding: 2rem 0;
+  }
+
+  .project-card {
+    margin: 0 1rem;
+  }
 }
